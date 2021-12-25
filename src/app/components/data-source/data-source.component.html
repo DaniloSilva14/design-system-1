@@ -1,1 +1,21 @@
-<p>data-source works!</p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="container">
+  <table>
+    <thead>
+      <tr>
+        <th *ngFor="let item of columnHead">{{this.item}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of dataSource">
+        <td>{{item.nome}}</td>
+        <td>{{item.descricao}}</td>
+        <td>
+          <i class="fa fa-edit hand" (click)="evento1()"></i>
+          <i class="fa fa-remove hand" (click)="evento1()"></i>          
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
