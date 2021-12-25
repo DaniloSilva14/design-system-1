@@ -19,7 +19,10 @@ export class DataSourceComponent implements OnInit {
   }
 
   evento1(){
-    alert('Teste')
+    alert('Edit row')
   }
 
+  evento2(){
+    alert('Delete row')
+  }
 }

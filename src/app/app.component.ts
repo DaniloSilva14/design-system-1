@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'design-system';
+
+  items = [
+    {title: 'Data Source', value: 'data-source'},
+    {title: 'Botãos', value: 'buttons'},
+    {title: 'Icones', value: 'icons'}
+  ]
+
+  constructor(
+    private router: Router
+  ) { }
+  
+  selectClick(value){    
+    this.router.navigateByUrl('/'+value);
+  }
 }
