@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DataSourceComponent } from './components/data-source/data-source.component';
+import { DefaultComponent } from './components/default/default.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DataSourceComponent,
+    DefaultComponent
   ],
   imports: [
     BrowserModule,

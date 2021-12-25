@@ -1,0 +1,35 @@
+html, body {
+  height: 100vh;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b285f972-6241-4895-a7a0-2be7b022747f/d2ui6bf-33d216cf-6dbc-4ab9-b2c7-0ee48f4f81cd.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IyODVmOTcyLTYyNDEtNDg5NS1hN2EwLTJiZTdiMDIyNzQ3ZlwvZDJ1aTZiZi0zM2QyMTZjZi02ZGJjLTRhYjktYjJjNy0wZWU0OGY0ZjgxY2QuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.l0kLZ48uxxpYuWtgChB9XuXD88imRf70DR5SGXRZrtM');
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  // background-color: red;
+  height: 20%;
+  width: 100%;
+  color: white;
+}
+
+.content {
+  height: 60%;
+}
+
+.outlet {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  margin: 10vh;
+}
+
+.footer { 
+  // background-color: yellow;
+  height: 20%;
+  width: 100%;
+  color: white;
+}
